@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <h1> Formulario </h1></header>
+    <nav> 
+    <h3> Menu de navegação</h3>
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="receita.html"> Receita </a></li>
+    <li><a href="video.html"> Video </a></li>
+    <li><a href="contato.html"> Contato </a></li>
+    </nav>
+        <section> 
+            <h2> Preencha o formulario a seguir</h2>
+        </section>
+       <form action ="" method ="get" name="feira">
+            <fieldset>
+                <legend> Seus dados pessoais:</legend>
+                <label for ="nome">Nome: </label>
+                <input type="text" name="txtNome" id="txtNome" size="100" requuired autofocus/>
+                <br/><br/>
+                <label for="dtNascimento">Data Nascimento:</label>
+                <input type="date" name="dtNascimento" id="dtNascimento" required/>
+                <br/><br/>
+                <label for="cpf">CPF:</label>
+                <input type ="text" name="txtCpf" id="txtCpf" size="15"disabled />
+                <br/><br/>
+                <label for="telConato">Contato:</label>
+                <input type ="tel" name="tlContato" id="tlContato" " required placeholder="preencha com DDD"/>
+                <br/><br/>
+                <label for="email">Email:</label>
+                <input type ="email" name="email" id="email" size="100" required/>
+                <br/><br/>
+            </fieldset>
+            <fieldset> 
+            
+
+            </select>
+            </fieldset>
+            <fieldset>
+                <legend size="30">  Mais doces que voce gostaria de aprender: </legend>
+                <label for ="Frutas">Doces: </label>
+                <input list="comida" name="lsComida" id="lsComida"/>
+                <datalist id = "comida"> 
+                    <option value = "bolos"></option>
+                    <option value = "brownies"></option>
+                    <option value = "cupcakes"></option>
+                    <option value = "biscoitos"></option>
+    
+</body>
+</html>
